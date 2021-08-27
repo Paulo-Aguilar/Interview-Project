@@ -1,0 +1,160 @@
+:root{
+    --color1: #0000;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.MainText{
+    /* background-color: rgba(255, 255, 255, 0.712); */
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.479),rgba(255, 255, 255, 0.705));
+    padding: 50px;
+    margin: 200px 900px 0 0;
+}
+.backgroundcolor{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.075),rgb(255, 255, 255));
+    margin-right: 900px;
+}
+
+.button {
+    background-color: #85bf3a; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.FirstText{
+    font-size: 48px;
+    width: 476px;
+letter-spacing: -2px;
+line-height: 36px;
+color: #85bf3a;
+font-weight: 800;
+font-style: italic;
+font-family: "Roboto";
+text-align: right;
+margin-left: 265px;
+padding: 10px;
+}
+.SecondText{
+width: 476px;
+font-size: 32px;
+letter-spacing: -2px;
+line-height: 44px;
+color: #3f3f3f;
+font-weight: 500;
+font-style: italic;
+font-family: "Roboto";
+text-align: right;
+margin-left: 140px;
+position: relative;
+}
+.SecondText span{
+    position: absolute;
+    top: -220%;
+    left: 98%;
+}
+.logo{
+    position: relative;
+    left: 300px;
+}
+
+
+.demo{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 1250px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 250px;
+}
+
+.left{
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: left;
+    background-image: url(images/Shape\ 68.png);
+    background-repeat: no-repeat;
+    background-size: 400px 150px;
+    font-size: 35px;
+    padding: 50px 50px 50px 50px;
+}
+.about{
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.right{
+    text-align: right;
+}
+.learn{
+    font-size: 27px;
+    color: #6d6e70;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 15px;
+}
+.learn span{
+    color: #85bf3a;
+}
+
+
+/* input text */
+.input{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+input[type=text], select {
+    width: 250px;
+    padding: 12px 10px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-left: 20px;
+}
+
+input[type=submit] {
+    width: 250px;
+    background-color: #85bf3a;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 5px;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 4px; 
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #5f882a;
+}
+
+
+
+
+
